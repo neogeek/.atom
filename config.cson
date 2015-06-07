@@ -13,3 +13,7 @@
     fontSize: 14
   tabs:
     usePreviewTabs: true
+  linter:
+    {}
+  "tree-view":
+    hideIgnoredNames: true
