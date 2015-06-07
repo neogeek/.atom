@@ -11,3 +11,5 @@
     tabLength: 4
     showInvisibles: true
     fontSize: 14
+  tabs:
+    usePreviewTabs: true
