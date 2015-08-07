@@ -11,7 +11,8 @@
     lineHeight: 1.3
   tabs:
     usePreviewTabs: true
-  linter: {}
+  linter:
+    lintOnFly: false
   "tree-view":
     hideIgnoredNames: true
     hideVcsIgnoredFiles: true
