@@ -17,7 +17,7 @@
 # If you are unfamiliar with CSON, you can read more about it here:
 # https://github.com/bevry/cson#what-is-cson
 
-'*':
+'.text.html, *':
     'jQuery':
         'prefix': 'jquery'
         'body': '<script src="//code.jquery.com/jquery.min.js"></script>'
@@ -36,8 +36,6 @@
 
 * {
     margin: 0; padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
