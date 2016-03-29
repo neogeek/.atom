@@ -1,18 +1,22 @@
 "*":
-  "exception-reporting":
-    userId: "64fb32c2-f724-176e-6942-4cce7179ed1f"
-  welcome:
-    showOnStartup: false
   core: {}
   editor:
     invisibles: {}
-    tabLength: 4
-    showInvisibles: true
     lineHeight: 1.3
-  tabs:
-    usePreviewTabs: true
+    showInvisibles: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "64fb32c2-f724-176e-6942-4cce7179ed1f"
+  "file-icons":
+    coloured: false
+    onChanges: true
   linter:
     lintOnFly: false
+  "linter-jshint": {}
+  react: {}
+  tabs:
+    usePreviewTabs: true
   "tree-view":
     hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
