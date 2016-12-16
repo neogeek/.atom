@@ -24,6 +24,9 @@
     'Style Sheet':
         'prefix': 'css'
         'body': '<link rel="stylesheet" href="$1">'
+    'CSS Media Query':
+        'prefix': 'css-media'
+        'body': '@media (min-width: 50rem) { $1 }'
     'Basic HTML Document':
         'prefix': 'html'
         'body': """<!DOCTYPE html>
