@@ -15,11 +15,18 @@
 // style the background and foreground colors on the atom-text-editor-element
 // itself
 atom-text-editor {
-
+    font-family: 'Operator Mono';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
 }
 
 // To style other content in the text editor's shadow DOM, use the ::shadow
 // expression
-atom-text-editor::shadow .cursor {
-
+atom-text-editor::shadow {
+    .storage,
+    .comment,
+    .attribute-name {
+        font-style: italic;
+    }
 }

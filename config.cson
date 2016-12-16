@@ -1,6 +1,17 @@
 "*":
-  core: {}
+  "atom-beautify":
+    general:
+      _analyticsUserId: "537037e0-2769-4b3f-8d3e-c38cd548cfef"
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "atom-dark-syntax"
+    ]
+    useCustomTitleBar: true
   editor:
+    fontFamily: "Native"
+    fontSize: 16
     invisibles: {}
     lineHeight: 1.3
     showInvisibles: true
@@ -18,5 +29,7 @@
     usePreviewTabs: true
   "tree-view":
     hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
+  whitespace: {}
